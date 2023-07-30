@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(37, 36, 36) !important;
+    position: fixed;
+    z-index: 100;
+    top: 0%;
+    width: 100%;
+}
+.navbar-brand{
+    color: #66D3FA !important;
+    font-weight: 900;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.navbar form{
+    padding-right: 100px;
+}
+#currency{
+    background-color: black;
+    border: 1px solid #66D3FA;
+    width: 80px;
+    height: 35px;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}

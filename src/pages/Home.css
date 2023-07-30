@@ -1,0 +1,204 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #66D3FA; 
+    border-radius: 10px;
+  }
+  
+  
+  ::-moz-scrollbar {
+    width: 10px;
+  }
+  
+  ::-moz-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background-color: #66D3FA;
+    border-radius: 10px;
+  }
+  
+  
+  ::-ms-scrollbar {
+    width: 10px;
+  }
+  
+  ::-ms-scrollbar-track {
+    background-color: #f1f1f1; 
+  }
+  
+  ::-ms-scrollbar-thumb {
+    background-color: #66D3FA; 
+    border-radius: 10px;
+  }
+  
+
+  
+
+
+body{
+    background-color: black;
+
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    height: 40vh !important;
+}
+.banner-1{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+#back{
+    width: 100%;
+    position: absolute;
+    height: 60vh !important;
+    object-fit: cover;
+    z-index: 97;
+}
+.heading{
+    width: 100%;
+    height: 60vh;
+    color: white;
+    position: absolute;
+    z-index: 98;
+    text-align: center;
+    margin-top: 150px;
+    padding-left: 20px;
+}
+.heading h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+
+
+#trending{
+    width: 100%;
+    position: relative;
+    margin-top: 200px !important;
+    text-align: center;
+}
+
+.search{
+  width: 100%;
+  margin-top: 150px;
+  padding-left: 20px;
+  
+}
+.search h1{
+  color: #66D3FA;
+  text-align: center;
+  font-weight: 800;
+}
+
+.search form {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.search form input{
+  width: 700px;
+  border: 1px solid #66D3FA;
+  background-color: rgb(37, 36, 36) !important;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: white;
+  outline: none;  
+}
+
+.lists{
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.table1{
+  margin-top: 50px ;
+  text-align: center;
+  width: 100%;
+}
+
+#header-01{
+ background-color: #66D3FA !important;
+ color: black !important;
+}
+
+.table table th{
+  background-color: #66D3FA;
+  color: black;
+}
+#datas{
+  background-color: rgb(37, 36, 36) !important;
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  height: 60px;
+  
+}
+
+#coin-list{
+
+  color: white;
+  
+}
+#coin-list img{
+  margin-right: 5px;
+}
+
+#symbols-1{
+  padding-top: 10px;
+}
+
+
+
+
+@media (max-width:767px) {
+
+  .search form {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .search form input{
+    width: 320px;
+    border: 1px solid #66D3FA;
+    background-color: rgb(37, 36, 36) !important;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: white;
+    outline: none;  
+  }
+  .heading{
+    width: 100%;
+    height: 60vh;
+    color: white;
+    position: absolute;
+    z-index: 98;
+    text-align: center;
+    margin-top: 250px;
+    padding-left: 20px;
+}
+.heading h1{
+    font-size: 55px;
+    font-weight: 900;
+}
+
+}

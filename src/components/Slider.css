@@ -1,0 +1,27 @@
+#66D3FA
+
+.trending{
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+}
+.trending h1{
+    color: #66D3FA;
+    font-weight: 800;
+}
+.slider-1{
+    padding-top: 100px !important;
+    position: relative;
+}
+.trendings-slider{
+    text-decoration: none !important;
+    list-style: none !important;
+    cursor:  pointer !important;
+}
+.sym{
+    color: white !important;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+}

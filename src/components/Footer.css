@@ -1,0 +1,19 @@
+.main03{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: 1px solid #66D3FA;
+}
+#footer-h1-1{
+    color: #66D3FA;
+    font-weight: 900;
+
+}
+.main03 h6{
+    color: #66D3FA;
+    padding-left: 20px;
+}
